@@ -14,7 +14,7 @@ class Emplyee(Employer):
         Emplyee.__init__(self, name, id_number)
 name = input("Enter your name : ")
 id_number =int(input("Enter your id number : "))
-salary = int(input("Enter your salary : "))
+salary = input("Enter your salary : ")
 post = input("Enter your post : ")
 
 obj = Emplyee(name, id_number, salary, post)
